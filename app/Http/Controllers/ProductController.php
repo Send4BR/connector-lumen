@@ -9,9 +9,7 @@ class ProductController extends Controller
 {
    public function getAllVariants(Request $request, $id)
    {
-      $sku = $request->has('product_sku') ? $request->product_sku : null;
-
-      if (!$id || !$sku) {
+      if (!$id) {
          return abort(404);
       } else {
          return response()->json(([
