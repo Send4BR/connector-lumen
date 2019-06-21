@@ -8,12 +8,12 @@ use Illuminate\Support\Facades\Validator;
 
 class OrderController extends Controller
 {
-   public function getAll(Request $request, $id)
+   public function getById(Request $request, $id)
    {
       $validator = Validator::make(
          $request->all(),
          [
-            'confirmation' => 'required|email',
+            'confirmation' => 'sometimes',
          ]
       );
 

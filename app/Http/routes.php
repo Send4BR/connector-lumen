@@ -18,4 +18,4 @@ $app->get('/connector', 'ConfigurationController@getConfigs');
 $app->get('/products/{id}/variants', 'ProductController@getAllVariants');
 
 $app->get('/orders/statuses', 'OrderController@getStatuses');
-$app->get('/orders/{id}', 'OrderController@getAll');
+$app->get('/orders/{id}', 'OrderController@getById');
