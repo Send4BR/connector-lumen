@@ -17,7 +17,7 @@ class RefundController extends Controller
             'customer_document' => 'required',
             'refund_id' => 'required',
             'refund_amount' => 'required',
-            'expiring_date' => 'required|date',
+            'expiring_date' => 'required|date_format:Y-m-d',
          ]
       );
 
