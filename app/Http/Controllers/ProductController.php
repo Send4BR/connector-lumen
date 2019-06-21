@@ -7,7 +7,7 @@ use App\Data\Products;
 
 class ProductController extends Controller
 {
-   public function getAllVariations(Request $request, $id)
+   public function getAllVariants(Request $request, $id)
    {
       $sku = $request->has('product_sku') ? $request->product_sku : null;
 
@@ -16,7 +16,7 @@ class ProductController extends Controller
       } else {
          return response()->json(([
             "success" => true,
-            "data" => Products::variations,
+            "data" => Products::variants,
          ]), 200);
       }
    }

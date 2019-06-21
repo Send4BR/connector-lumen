@@ -13,12 +13,11 @@ class RefundController extends Controller
       $validator = Validator::make(
          $request->all(),
          [
-            'customer_id' => 'required',
             'customer_email' => 'required|email',
             'customer_document' => 'required',
             'refund_id' => 'required',
             'refund_amount' => 'required',
-            'expire_days' => 'required',
+            'expiring_date' => 'required|date',
          ]
       );
 

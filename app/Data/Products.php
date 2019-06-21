@@ -3,7 +3,7 @@ namespace App\Data;
 
 class Products
 {
-    const variations = [
+    const variants = [
         "grid" => [
             "Color" => [
                 "red",

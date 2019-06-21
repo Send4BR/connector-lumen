@@ -15,7 +15,7 @@ $app->post('/refunds/pay', 'RefundController@newPayment');
 
 $app->get('/connector', 'ConfigurationController@getConfigs');
 
-$app->get('/products/{id}/variations', 'ProductController@getAllVariations');
+$app->get('/products/{id}/variants', 'ProductController@getAllVariants');
 
 $app->get('/orders/statuses', 'OrderController@getStatuses');
 $app->get('/orders/{id}', 'OrderController@getAll');
