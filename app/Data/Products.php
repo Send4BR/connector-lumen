@@ -4,17 +4,6 @@ namespace App\Data;
 class Products
 {
     const variants = [
-        "grid" => [
-            "Color" => [
-                "red",
-                "blue"
-            ],
-            "Size" => [
-                "s",
-                "m",
-                "l"
-            ]
-        ],
         "skus" => [
             [
                 "sku" => "T123REDS",
