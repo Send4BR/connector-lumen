@@ -6,8 +6,8 @@ class Configurations
     const listAllConfigs = [
         "name" => "Shopify",
         "description" => "This is a Shopify connector.",
-        "image_url" => "https=>//foo.bar/img/logo.png",
-        "auth_fields" => [
+        "image_url" => "https://foo.bar/img/logo.png",
+        "custom_fields" => [
             [
                 "key" => "username",
                 "label" => "Ecommerce login"
