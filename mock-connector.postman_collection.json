@@ -1,15 +1,12 @@
 {
 	"info": {
-		"_postman_id": "38a059ae-7a63-4f28-99ed-166846f49efe",
-		"name": "mock-connector",
+		"_postman_id": "c98bf98b-b962-425a-9296-0a3fbeaec11e",
+		"name": "mock-connector copy",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://localhost:8000/api/orders",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
+			"name": "http://localhost:8000/orders/statuses",
 			"request": {
 				"method": "GET",
 				"header": [
@@ -20,7 +17,10 @@
 						"type": "text"
 					}
 				],
-				"body": {},
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
 				"url": {
 					"raw": "http://localhost:8000/orders/statuses",
 					"protocol": "http",
@@ -38,9 +38,6 @@
 		},
 		{
 			"name": "http://localhost:8000/products/3/variations?product_sku=2",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
 			"request": {
 				"method": "GET",
 				"header": [
@@ -51,7 +48,10 @@
 						"type": "text"
 					}
 				],
-				"body": {},
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
 				"url": {
 					"raw": "http://localhost:8000/products/3/variations?product_sku=2",
 					"protocol": "http",
@@ -76,9 +76,6 @@
 		},
 		{
 			"name": "http://localhost:8000/orders/9?confirmation=teste@teste.com",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
 			"request": {
 				"method": "GET",
 				"header": [
@@ -89,7 +86,10 @@
 						"type": "text"
 					}
 				],
-				"body": {},
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
 				"url": {
 					"raw": "http://localhost:8000/orders/9?confirmation=teste@teste.com",
 					"protocol": "http",
@@ -175,9 +175,6 @@
 		},
 		{
 			"name": "http://localhost:8000/connector",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
 			"request": {
 				"method": "GET",
 				"header": [
@@ -188,7 +185,10 @@
 						"type": "text"
 					}
 				],
-				"body": {},
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
 				"url": {
 					"raw": "http://localhost:8000/connector",
 					"protocol": "http",

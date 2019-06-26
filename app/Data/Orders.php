@@ -19,12 +19,12 @@ class Orders
         "marketplace_name" => "Amazon",
         "customer" => [
             "id" => "123",
-            "email" => "rafael@send4.com.br",
-            "first_name" => "Rafael",
-            "last_name" => "Iop",
+            "email" => "test@test.com.br",
+            "first_name" => "Michael",
+            "last_name" => "Jordan",
             "gender" => "male",
-            "phone" => "5541123456789",
-            "document" => "01916119050",
+            "phone" => "5541199999999",
+            "document" => "99999999999",
             "address" => [
                 "zip_code" => "94103",
                 "address" => "Mission St",
