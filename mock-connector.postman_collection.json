@@ -37,7 +37,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8000/products/3/variations?product_sku=2",
+			"name": "http://localhost:8000/products/3/variants",
 			"request": {
 				"method": "GET",
 				"header": [
